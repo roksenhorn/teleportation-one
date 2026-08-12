@@ -1,0 +1,16 @@
+name: Teleportation One
+repository_url: https://github.com/roksenhorn/teleportation-one.git
+branch: main
+category:
+  - DISPLAY
+designer: Ryan Oksenhorn
+build: |
+  python3 -m venv .venv
+  . .venv/bin/activate
+  pip install -r requirements.txt
+  ./build.sh
+files:
+  OFL.txt: OFL.txt
+  fonts/ttf/TeleportationOne-Regular.ttf: TeleportationOne-Regular.ttf
+  documentation/article/ARTICLE.en_us.html: article/ARTICLE.en_us.html
+  documentation/article/teleportation-one-specimen.png: article/teleportation-one-specimen.png

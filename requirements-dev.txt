@@ -1,0 +1,3 @@
+-r requirements.txt
+fontbakery[googlefonts]==1.1.0
+glyphsets==1.1.0

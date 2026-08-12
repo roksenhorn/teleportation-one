@@ -1,0 +1,5 @@
+# This is the list of people who have contributed to this project,
+# including contributors who are not copyright authors.
+#
+# Names should be added to this file as:
+# Name <email address>
