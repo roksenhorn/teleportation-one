@@ -39,6 +39,12 @@ With the dependencies installed, run:
 The checks cover UFO validity, OpenType sanitization, Google Fonts Latin Core
 coverage, and the FontBakery Google Fonts profile.
 
+Regenerate the documentation specimen through OpenType shaping with:
+
+```sh
+python scripts/render_specimen.py
+```
+
 ## License and copyright
 
 Teleportation One is licensed under the SIL Open Font License, Version 1.1,
