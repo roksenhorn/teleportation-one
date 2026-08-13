@@ -49,19 +49,19 @@ def draw_shaped(
 
 
 def render(output: Path) -> None:
-    image = Image.new("RGB", (1400, 760), BACKGROUND)
+    image = Image.new("RGB", (1400, 840), BACKGROUND)
     draw = ImageDraw.Draw(image)
 
     draw_shaped(draw, (64, 48), "TELEPORTATION ONE", shaped_font(30), fill=ACCENT)
     draw_shaped(draw, (64, 142), "MOVE", shaped_font(190))
-    draw_shaped(draw, (64, 295), "INSTANTLY", shaped_font(190))
+    draw_shaped(draw, (64, 345), "INSTANTLY", shaped_font(190))
 
-    draw.rounded_rectangle((64, 490, 1336, 495), radius=2, fill=ACCENT)
+    draw.rounded_rectangle((64, 580, 1336, 585), radius=2, fill=ACCENT)
 
-    draw_shaped(draw, (64, 540), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", shaped_font(46))
+    draw_shaped(draw, (64, 630), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", shaped_font(46))
     draw_shaped(
         draw,
-        (64, 615),
+        (64, 705),
         "À Á Â Ã Ä Å  Æ  Ç  Ď  Ñ  Ö  Œ  Š  Þ  Ž    0123456789    ← → ↔",
         shaped_font(42),
     )
