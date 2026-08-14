@@ -18,3 +18,6 @@ fontmake \
 gftools fix-nonhinting \
   "$build_dir/TeleportationOne-Regular.ttf" \
   "$project_dir/fonts/ttf/TeleportationOne-Regular.ttf"
+
+python3 "$project_dir/scripts/postprocess_font.py" \
+  "$project_dir/fonts/ttf/TeleportationOne-Regular.ttf"

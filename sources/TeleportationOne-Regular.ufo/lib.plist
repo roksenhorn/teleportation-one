@@ -180,6 +180,7 @@
       <string>edotaccent</string>
       <string>egrave</string>
       <string>eight</string>
+      <string>eight.tnum</string>
       <string>ellipsis</string>
       <string>emacron</string>
       <string>emdash</string>
@@ -192,7 +193,9 @@
       <string>exclamdown</string>
       <string>f</string>
       <string>five</string>
+      <string>five.tnum</string>
       <string>four</string>
+      <string>four.tnum</string>
       <string>g</string>
       <string>gbreve</string>
       <string>gcommaaccent</string>
@@ -214,7 +217,6 @@
       <string>iacute</string>
       <string>icircumflex</string>
       <string>idieresis</string>
-      <string>idotaccent</string>
       <string>idotless</string>
       <string>igrave</string>
       <string>imacron</string>
@@ -240,6 +242,7 @@
       <string>ncaron</string>
       <string>ncommaaccent</string>
       <string>nine</string>
+      <string>nine.tnum</string>
       <string>ntilde</string>
       <string>numbersign</string>
       <string>o</string>
@@ -252,6 +255,7 @@
       <string>ograve</string>
       <string>ohungarumlaut</string>
       <string>one</string>
+      <string>one.tnum</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
       <string>oslash</string>
@@ -291,7 +295,9 @@
       <string>section</string>
       <string>semicolon</string>
       <string>seven</string>
+      <string>seven.tnum</string>
       <string>six</string>
+      <string>six.tnum</string>
       <string>slash</string>
       <string>space</string>
       <string>sterling</string>
@@ -300,10 +306,12 @@
       <string>tcommaaccent</string>
       <string>thorn</string>
       <string>three</string>
+      <string>three.tnum</string>
       <string>tilde</string>
       <string>tildecomb</string>
       <string>trademark</string>
       <string>two</string>
+      <string>two.tnum</string>
       <string>u</string>
       <string>uacute</string>
       <string>ucircumflex</string>
@@ -332,6 +340,7 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zero</string>
+      <string>zero.tnum</string>
     </array>
   </dict>
 </plist>

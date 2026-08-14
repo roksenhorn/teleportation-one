@@ -1,5 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem latn CAT;
 
 @KERN_A = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde ordfeminine];
 @KERN_B = [B b];
@@ -9,7 +10,7 @@ languagesystem latn dflt;
 @KERN_F = [F f];
 @KERN_G = [G Gbreve Gcommaaccent Gdotaccent g gbreve gcommaaccent gdotaccent];
 @KERN_H = [H Hbar h hbar];
-@KERN_I = [I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek i iacute icircumflex idieresis idotaccent idotless igrave imacron iogonek];
+@KERN_I = [I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek i iacute icircumflex idieresis idotless igrave imacron iogonek];
 @KERN_J = [J j jdotless];
 @KERN_K = [K Kcommaaccent k kcommaaccent];
 @KERN_L = [L Lacute Lcaron Lcommaaccent Lslash l lacute lcaron lcommaaccent lslash];
@@ -27,6 +28,26 @@ languagesystem latn dflt;
 @KERN_X = [X x];
 @KERN_Y = [Y Yacute Ycircumflex Ydieresis Ygrave y yacute ycircumflex ydieresis ygrave];
 @KERN_Z = [Z Zacute Zcaron Zdotaccent z zacute zcaron zdotaccent];
+
+feature locl {
+  script latn;
+  language CAT;
+  sub L periodcentered' L by periodcentered.loclCAT.case;
+  sub l periodcentered' l by periodcentered.loclCAT;
+} locl;
+
+feature tnum {
+  sub zero by zero.tnum;
+  sub one by one.tnum;
+  sub two by two.tnum;
+  sub three by three.tnum;
+  sub four by four.tnum;
+  sub five by five.tnum;
+  sub six by six.tnum;
+  sub seven by seven.tnum;
+  sub eight by eight.tnum;
+  sub nine by nine.tnum;
+} tnum;
 
 feature liga {
   sub less hyphen hyphen greater by arrowboth;

@@ -2,6 +2,8 @@
 <glyph name="arrowboth" format="2">
   <advance width="745"/>
   <unicode hex="2194"/>
+  <anchor x="248" y="0" name="caret_1"/>
+  <anchor x="497" y="0" name="caret_2"/>
   <outline>
     <contour>
       <point x="262" y="650" type="line"/>

@@ -7,3 +7,6 @@ The phrase “The Teleportation One Project Authors” in `OFL.txt` and the font
 metadata is the canonical Google Fonts project-author label. Its complete legal
 membership is defined by `AUTHORS.txt`, which currently contains only Ryan
 Oksenhorn.
+
+No font name is designated as a Reserved Font Name under the SIL Open Font
+License. Modified versions may be renamed freely subject to the license.
