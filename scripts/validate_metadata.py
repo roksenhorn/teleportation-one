@@ -20,6 +20,8 @@ def main() -> None:
 
     font = TTFont(sys.argv[1])
     assert "Teleportation One" in name_values(font, 1)
+    expected_version = f"Version {font['head'].fontRevision:.3f}"
+    assert set(name_values(font, 5)) == {expected_version}
     assert not name_values(font, 7), "trademark metadata must not be present"
     assert any("SIL Open Font License" in value for value in name_values(font, 13))
     assert font["OS/2"].fsType == 0

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.002 - 2026-08-14
+
+- Corrected the pinned gftools release so FontBakery and the build toolchain
+  resolve together in a clean environment.
+- Added clean-install verification through the public GitHub Actions workflow.
+- No glyph design changes from version 1.001.
+
 ## 1.001 - 2026-08-14
 
 - Added tabular numeral alternates through the `tnum` OpenType feature.
