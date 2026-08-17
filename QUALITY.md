@@ -1,5 +1,11 @@
 # Quality review notes
 
+Version 1.003 received a card-by-card visual review of all 323 encoded
+characters. The symbols and extended Latin forms flagged during that review
+were redrawn from approved source artwork and checked again in the rebuilt
+font. The complete local review specimen can be regenerated with
+`python scripts/render_glyph_specimen.py`.
+
 FontBakery's contour-count check compares glyph construction with conventional
 mixed-case text families. Teleportation One is intentionally unicase, and its
 lowercase forms reuse the display construction of the uppercase alphabet. The

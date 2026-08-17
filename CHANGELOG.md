@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.003 - 2026-08-17
+
+- Replaced low-quality extended and symbol glyphs with reviewed source
+  artwork, including Ø/ø, Æ/æ, Þ/þ, Ð/ð, Đ/đ, ß/ẞ, ¶, §, ¢, £, ¥, €, ©,
+  and ®.
+- Repaired the tilde and tilde-combining families so accented composites use
+  clean, consistent outlines.
+- Added a complete browser specimen for visual review of all 323 encoded
+  characters.
+- Completed a full visual glyph audit and rebuilt the release font from the
+  corrected UFO source.
+
 ## 1.002 - 2026-08-14
 
 - Corrected the pinned gftools release so FontBakery and the build toolchain
