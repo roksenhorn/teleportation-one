@@ -47,6 +47,17 @@ checks for every change to `main` and every pull request. CI uses
 `./scripts/check.sh --skip-network` so external service outages cannot mask the
 font's local validation result; release validation uses the default live checks.
 
+The diacritic source is reproducible as a component system:
+
+```sh
+python scripts/rebuild_diacritics.py
+./build.sh
+python scripts/validate_diacritics.py fonts/ttf/TeleportationOne-Regular.ttf
+```
+
+This validates zero-width combining marks, GDEF mark classes, `mark`/`mkmk`
+stacking, and equivalent shaping for every supported NFC/NFD pair.
+
 Regenerate the documentation specimen through OpenType shaping with:
 
 ```sh

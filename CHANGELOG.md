@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.004 - 2026-08-24
+
+- Rebuilt all 145 canonical accented glyphs from a shared combining-mark
+  system so precomposed and decomposed text shape identically.
+- Corrected optical spacing and centering across the top accents, attached
+  cedillas and letter-specific ogoneks, distinguished Romanian comma accents,
+  used centered top carons for uppercase Ď/Ť, and used the compact side-caron
+  form for Ľ/ď/ľ/ť with independent right-side spacing.
+- Added bilateral spacing for Î/Ï/Ī and î/ï/ī so their wide marks do not collide
+  with neighboring glyphs.
+- Made U+00DF ß and U+1E9E ẞ intentionally share the same outline and metrics.
+- Added automated checks for zero-width marks, GDEF class 3, `mark`/`mkmk`
+  stacking, component construction, clipping, and all NFC/NFD pairs.
+- Expanded Windows metrics to the 1000/-200 line box to prevent clipping.
+
 ## 1.003 - 2026-08-17
 
 - Replaced low-quality extended and symbol glyphs with reviewed source

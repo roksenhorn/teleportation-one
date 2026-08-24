@@ -16,6 +16,7 @@ ufolint "$project_dir/sources/TeleportationOne-Regular.ufo"
 gftools ots "$project_dir/fonts/ttf"
 glyphsets coverage "$font"
 python3 "$project_dir/scripts/validate_metadata.py" "$font"
+python3 "$project_dir/scripts/validate_diacritics.py" "$font"
 if $skip_network; then
   fontbakery check-googlefonts "$font" \
     --no-progress \

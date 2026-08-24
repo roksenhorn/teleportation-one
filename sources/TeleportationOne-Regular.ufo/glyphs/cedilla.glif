@@ -1,19 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
-  <advance width="300"/>
-  <unicode hex="00B8"/>
+  <advance width="300" />
+  <unicode hex="00B8" />
   <outline>
-    <contour>
-      <point x="142" y="594" type="line"/>
-      <point x="214" y="594" type="line"/>
-      <point x="170" y="538" type="line"/>
-      <point x="242" y="546"/>
-      <point x="244" y="454"/>
-      <point x="154" y="450" type="curve"/>
-      <point x="108" y="488" type="line"/>
-      <point x="162" y="488"/>
-      <point x="174" y="508"/>
-      <point x="122" y="516" type="curve"/>
-    </contour>
+    <component base="cedillacomb" xOffset="150" yOffset="720" />
   </outline>
 </glyph>

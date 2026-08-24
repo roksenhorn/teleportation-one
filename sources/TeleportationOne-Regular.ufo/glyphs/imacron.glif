@@ -1,21 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="imacron" format="2">
-  <advance width="216"/>
-  <unicode hex="012B"/>
-  <anchor x="108.0" y="800" name="top"/>
-  <anchor x="108.0" y="0" name="bottom"/>
+  <advance width="264" />
+  <unicode hex="012B" />
+  <anchor x="132" y="1020" name="top" />
+  <anchor x="108" y="0" name="bottom" />
   <outline>
-    <contour>
-      <point x="188" y="790" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="28" y="0" type="line"/>
-      <point x="28" y="790" type="line"/>
-    </contour>
-    <contour>
-      <point x="-8.0" y="892" type="line"/>
-      <point x="224.0" y="892" type="line"/>
-      <point x="224.0" y="948" type="line"/>
-      <point x="-8.0" y="948" type="line"/>
-    </contour>
+    <component base="i" xOffset="24" />
+    <component base="macroncomb" xOffset="132" yOffset="800" />
   </outline>
 </glyph>

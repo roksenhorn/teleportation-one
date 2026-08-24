@@ -1,58 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Adieresis" format="2">
-  <advance width="431"/>
-  <unicode hex="00C4"/>
-  <anchor x="215.5" y="800" name="top"/>
-  <anchor x="215.5" y="0" name="bottom"/>
+  <advance width="431" />
+  <unicode hex="00C4" />
+  <anchor x="215.5" y="1020" name="top" />
+  <anchor x="326" y="0" name="bottom" />
   <outline>
-    <contour>
-      <point x="333" y="790" type="line"/>
-      <point x="409" y="7" type="line"/>
-      <point x="409" y="0" type="line"/>
-      <point x="263" y="0" type="line"/>
-      <point x="250" y="195" type="line"/>
-      <point x="181" y="195" type="line"/>
-      <point x="167" y="0" type="line"/>
-      <point x="22" y="0" type="line"/>
-      <point x="22" y="7" type="line"/>
-      <point x="98" y="790" type="line"/>
-    </contour>
-    <contour>
-      <point x="215" y="603" type="qcurve" smooth="yes"/>
-      <point x="209" y="603"/>
-      <point x="208" y="596" type="qcurve"/>
-      <point x="188" y="312" type="line"/>
-      <point x="242" y="312" type="line"/>
-      <point x="222" y="596" type="line"/>
-      <point x="222" y="603"/>
-    </contour>
-    <contour>
-      <point x="183.5" y="915" type="curve" smooth="yes"/>
-      <point x="183.5" y="935.9868204935701"/>
-      <point x="166.48682049357015" y="953.0"/>
-      <point x="145.5" y="953" type="curve" smooth="yes"/>
-      <point x="124.51317950642985" y="953.0"/>
-      <point x="107.5" y="935.9868204935701"/>
-      <point x="107.5" y="915" type="curve" smooth="yes"/>
-      <point x="107.5" y="894.0131795064299"/>
-      <point x="124.51317950642985" y="877.0"/>
-      <point x="145.5" y="877" type="curve" smooth="yes"/>
-      <point x="166.48682049357015" y="877.0"/>
-      <point x="183.5" y="894.0131795064299"/>
-    </contour>
-    <contour>
-      <point x="323.5" y="915" type="curve" smooth="yes"/>
-      <point x="323.5" y="935.9868204935701"/>
-      <point x="306.4868204935701" y="953.0"/>
-      <point x="285.5" y="953" type="curve" smooth="yes"/>
-      <point x="264.5131795064298" y="953.0"/>
-      <point x="247.5" y="935.9868204935701"/>
-      <point x="247.5" y="915" type="curve" smooth="yes"/>
-      <point x="247.5" y="894.0131795064299"/>
-      <point x="264.5131795064298" y="877.0"/>
-      <point x="285.5" y="877" type="curve" smooth="yes"/>
-      <point x="306.4868204935701" y="877.0"/>
-      <point x="323.5" y="894.0131795064299"/>
-    </contour>
+    <component base="A" />
+    <component base="dieresiscomb" xOffset="215.5" yOffset="800" />
   </outline>
 </glyph>

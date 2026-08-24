@@ -1,24 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Icircumflex" format="2">
-  <advance width="216"/>
-  <unicode hex="00CE"/>
-  <anchor x="108.0" y="800" name="top"/>
-  <anchor x="108.0" y="0" name="bottom"/>
+  <advance width="264" />
+  <unicode hex="00CE" />
+  <anchor x="132" y="1020" name="top" />
+  <anchor x="108" y="0" name="bottom" />
   <outline>
-    <contour>
-      <point x="188" y="790" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="28" y="0" type="line"/>
-      <point x="28" y="790" type="line"/>
-    </contour>
-    <contour>
-      <point x="-8.0" y="852" type="line"/>
-      <point x="54.0" y="852" type="line"/>
-      <point x="108.0" y="916" type="line"/>
-      <point x="162.0" y="852" type="line"/>
-      <point x="224.0" y="852" type="line"/>
-      <point x="136.0" y="984" type="line"/>
-      <point x="80.0" y="984" type="line"/>
-    </contour>
+    <component base="I" xOffset="24" />
+    <component base="circumflexcomb" xOffset="132" yOffset="800" />
   </outline>
 </glyph>

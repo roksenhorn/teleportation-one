@@ -1,25 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iogonek" format="2">
-  <advance width="216"/>
-  <unicode hex="012E"/>
-  <anchor x="108.0" y="800" name="top"/>
-  <anchor x="108.0" y="0" name="bottom"/>
+  <advance width="216" />
+  <unicode hex="012E" />
+  <anchor x="108" y="800" name="top" />
+  <anchor x="84" y="-220" name="bottom" />
   <outline>
-    <contour>
-      <point x="188" y="790" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="28" y="0" type="line"/>
-      <point x="28" y="790" type="line"/>
-    </contour>
-    <contour>
-      <point x="146.0" y="-22" type="curve"/>
-      <point x="208.0" y="-22" type="line"/>
-      <point x="132.0" y="-82"/>
-      <point x="130.0" y="-132"/>
-      <point x="200.0" y="-130" type="curve"/>
-      <point x="180.0" y="-176" type="line"/>
-      <point x="66.0" y="-176"/>
-      <point x="62.0" y="-92"/>
-    </contour>
+    <component base="I" />
+    <component base="ogonekcomb" xOffset="84" />
   </outline>
 </glyph>

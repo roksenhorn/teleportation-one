@@ -1,43 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresis" format="2">
-  <advance width="216"/>
-  <unicode hex="00EF"/>
-  <anchor x="108.0" y="800" name="top"/>
-  <anchor x="108.0" y="0" name="bottom"/>
+  <advance width="264" />
+  <unicode hex="00EF" />
+  <anchor x="132" y="1020" name="top" />
+  <anchor x="108" y="0" name="bottom" />
   <outline>
-    <contour>
-      <point x="188" y="790" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="28" y="0" type="line"/>
-      <point x="28" y="790" type="line"/>
-    </contour>
-    <contour>
-      <point x="76.0" y="915" type="curve" smooth="yes"/>
-      <point x="76.0" y="935.9868204935701"/>
-      <point x="58.98682049357016" y="953.0"/>
-      <point x="38.0" y="953" type="curve" smooth="yes"/>
-      <point x="17.01317950642985" y="953.0"/>
-      <point x="0.0" y="935.9868204935701"/>
-      <point x="0.0" y="915" type="curve" smooth="yes"/>
-      <point x="0.0" y="894.0131795064299"/>
-      <point x="17.01317950642985" y="877.0"/>
-      <point x="38.0" y="877" type="curve" smooth="yes"/>
-      <point x="58.98682049357016" y="877.0"/>
-      <point x="76.0" y="894.0131795064299"/>
-    </contour>
-    <contour>
-      <point x="216.0" y="915" type="curve" smooth="yes"/>
-      <point x="216.0" y="935.9868204935701"/>
-      <point x="198.98682049357015" y="953.0"/>
-      <point x="178.0" y="953" type="curve" smooth="yes"/>
-      <point x="157.01317950642985" y="953.0"/>
-      <point x="140.0" y="935.9868204935701"/>
-      <point x="140.0" y="915" type="curve" smooth="yes"/>
-      <point x="140.0" y="894.0131795064299"/>
-      <point x="157.01317950642985" y="877.0"/>
-      <point x="178.0" y="877" type="curve" smooth="yes"/>
-      <point x="198.98682049357015" y="877.0"/>
-      <point x="216.0" y="894.0131795064299"/>
-    </contour>
+    <component base="i" xOffset="24" />
+    <component base="dieresiscomb" xOffset="132" yOffset="800" />
   </outline>
 </glyph>

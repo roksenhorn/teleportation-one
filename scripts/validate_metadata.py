@@ -25,8 +25,8 @@ def main() -> None:
     assert not name_values(font, 7), "trademark metadata must not be present"
     assert any("SIL Open Font License" in value for value in name_values(font, 13))
     assert font["OS/2"].fsType == 0
-    assert font["OS/2"].usWinAscent == font["head"].yMax
-    assert font["OS/2"].usWinDescent == abs(font["head"].yMin)
+    assert font["OS/2"].usWinAscent >= font["head"].yMax
+    assert font["OS/2"].usWinDescent >= abs(font["head"].yMin)
     assert font["meta"].data == {"dlng": "Latn", "slng": "Latn"}
 
     gsub_features = {
